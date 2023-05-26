@@ -3,4 +3,5 @@
     <string name="press_the_refresh_button_to_load_data">Press the refresh button to load data</string>
     <string name="refresh">Refresh</string>
     <string name="failed_to_retrieve">Failed to retrieve data</string>
+    <string name="app_widget_desc">App widget description</string>
 </resources>

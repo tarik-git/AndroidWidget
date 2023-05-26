@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         fact?.let {
             SharedPreferencesManager.saveData(baseContext, fact.text)
             renderFactText()
-            // TODO Request the widget be updated here:
+            Util.requestWidgetUpdate(baseContext, false)
         } ?: Toast.makeText(baseContext, getString(R.string.failed_to_retrieve), Toast.LENGTH_SHORT).show()
     }
 
